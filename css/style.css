@@ -43,6 +43,7 @@ h1 {
 	font-weight: 700;
 	padding: 17px 55px;
 	margin-top: 33px;
+	transition: 0.2s;
 }
 
 header small {
@@ -148,6 +149,7 @@ h4 {
 	color: #ffffff;
 	font-size: 18px;
 	padding: 15px 40px;
+	transition: 0.2s;
 }
 
 .footer-cta-block {
@@ -201,4 +203,13 @@ h4 {
 	h4, .footer-text {
 		text-align: center;
 	}
+}
+
+.header-button:hover {
+	box-shadow: none;
+}
+
+.footer-button:hover {
+	background-color: #ffffff;
+	color: #3a7dfd;
 }

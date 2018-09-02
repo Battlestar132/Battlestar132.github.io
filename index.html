@@ -6,6 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/animate.css">
 		<!-- Информация об Авторе и описание проекта -->
 		<meta name="description" content="">
 		<meta name="auyhor" content="">
@@ -25,16 +26,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
-					<img class="header-img" src="img/main-img.png" alt="Монитор">
+					<img class="header-img wow fadeInLeft" src="img/main-img.png" alt="Монитор">
 				</div>
 				<div class="col-lg-5">
-					<p class="sup-string">Веб-разработчик</p>
-					<h1>Бондарь Дмитрий</h1>
-					<p class="header-sub-title">
+					<p class="sup-string wow fadeInRight" data-wow-delay="0.1s">Веб-разработчик</p>
+					<h1 class="wow fadeInRight" data-wow-delay="0.2s">Дмитрий Бондарь</h1>
+					<p class="header-sub-title wow fadeInRight" data-wow-delay="0.3s">
 					Верстка на HTML/CSS <br>
 					Разработка сайтов под ключ
 					</p>
-					<div class="header-button-block">
+					<div class="header-button-block wow fadeInRight" data-wow-delay="0.4s">
 						<a class="header-button" href="https://vk.com/dimka_bondar8">Связаться</a>
 						<small>*Это бесплатно</small>
 					</div>
@@ -72,16 +73,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					<h4>Бондарь Дмитрий</h4>
+					<h4>Дмитрий Бондарь</h4>
 					<p class="footer-text">Разработка сайтов под ключ</p>
 				</div>
 				<div class="col-md-4">
 					<div class="social-block">
 						<p>Подпишитесь:</p>
-						<a href="#"><img src="img/facebook-logo-button.png" alt="facebook"></a>
-						<a href="#"><img src="img/telegram-symbol.png" alt="telegram"></a>
-						<a href="https://vk.com/dimka_bondar8"><img src="img/vk-social-logotype.png" alt="vk"></a>
-						<a href="#"><img src="img/youtube-symbol.png" alt="youtube"></a>
+						<a href="#"><img src="img/facebook-logo-button.png" alt="facebook" class="wow bounceIn"></a>
+						<a href="#"><img src="img/telegram-symbol.png" alt="telegram" class="wow bounceIn"></a>
+						<a href="https://vk.com/dimka_bondar8"><img src="img/vk-social-logotype.png" alt="vk" class="wow bounceIn"></a>
+						<a href="#"><img src="img/youtube-symbol.png" alt="youtube" class="wow bounceIn"></a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -93,5 +94,9 @@
 			</div>
 		</div>
 	</footer>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 </body>
 </html>
