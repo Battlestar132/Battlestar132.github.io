@@ -246,7 +246,7 @@ h4 {
 	}
 
 	.upping {
-		right: 50%;
+		display: none;
 	}
 }
 
